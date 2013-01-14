@@ -1,0 +1,16 @@
+name: invasion
+main: me.theCodeBro.invasion.invasion
+author: theCodeBro
+version: 0.1
+dependencies: [TagAPI]
+commands:
+   loc:
+          Description: sets a location.
+   join:
+          Description: lets you join a team.
+   leave:
+          Description: lets you leave the game.
+   start:
+          Description: foreces the game to start.
+   setLimit:
+          Description: sets the team limit.
