@@ -321,7 +321,7 @@ public class invasion extends JavaPlugin implements Listener{
 			}else if(getTeam(player) == 2){
 				blue--;
 			}if(running || midRunning){
-				Bukkit.broadcastMessage(player.getDisplayName() + ChatColor.GOLD
+				Bukkit.getServer().broadcastMessage(player.getDisplayName() + ChatColor.GOLD
 						+ " left the " + ChatColor.BLUE + "blue" + ChatColor.GOLD + " team!, now someone can join!");
 				}
 			}
